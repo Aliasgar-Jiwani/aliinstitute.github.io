@@ -1,6 +1,3 @@
-body{
-  background-image: url("images\bg-texture.png");
-}
 
 *{
   margin:0;
@@ -402,6 +399,9 @@ footer ul li a:hover{
   .container{
     width: var(--container-width-md);
   }
+  html{
+    font-size: 49%;
+  }
 
 h1{
   font-size: 2.2rem;
@@ -512,7 +512,7 @@ categories-container{
 
 /*MEDIA QUERIES  (PHONES)*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
   .container{
     width: var(--container-width-sm);
   }
